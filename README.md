@@ -1,16 +1,33 @@
 # flutter_specific_drawer
 
-A new Flutter project.
+## Twitter IOS Drawer 
 
-## Getting Started
+Drawer açılırken:
+- app barın tamamen visible olması.
+- body nin opacity düşüp body içerisine tıklanamaması
+- bottom navigation bar, appbar ve body nin drawer ile birlikte kayması
 
-This project is a starting point for a Flutter application.
+amaçlanmıştır.
 
-A few resources to get you started if this is your first Flutter project:
+Projede state managment için mobx kullanılmıştır.
+```yaml
+dependencies:
+    flutter_mobx: ^2.0.6+4
+     mobx: ^2.1.1
+dev_dependencies:
+    build_runner: ^2.2.1
+    mobx_codegen: ^2.0.7+3
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<table>
+  <tr>
+    <td>Custom Side Bar</td>
+  </tr>
+  
+  <tr>
+    <td><img src="ss/home.jpg" width=270 height=480></td>
+    <td><img src="ss/drawer.gif" width=270 height=480></td>
+    <td><img src="ss/drawer.jpg" width=270 height=480></td>
+  </tr>
+  
+</table>
